@@ -1,15 +1,18 @@
 # 记账本 App 后端（accounting-app-backend）
 
+![lang](https://img.shields.io/badge/lang-JavaScript-informational) ![status](https://img.shields.io/badge/status-maintained-brightgreen)
+
+
 Android 记账本应用的服务端 API，Express + MySQL 实现，JWT 鉴权。
 
-## ✨ 功能特性
+##  功能特性
 
-- 🔐 **JWT + bcrypt 鉴权**：注册/登录/密码加密，安全认证
-- 📒 **多模块 API**：账本、账单记录、分类（菜系）、统计报表、日程、背景图、菜谱
-- 📊 **统计接口**：账单统计与报表聚合
-- ⚙️ **工程化配置**：CORS、环境变量（dotenv）、上传路径统一管理
+-  **JWT + bcrypt 鉴权**：注册/登录/密码加密，安全认证
+-  **多模块 API**：账本、账单记录、分类（菜系）、统计报表、日程、背景图、菜谱
+-  **统计接口**：账单统计与报表聚合
+-  **工程化配置**：CORS、环境变量（dotenv）、上传路径统一管理
 
-## 🛠 技术栈
+##  技术栈
 
 | 层 | 技术 |
 |---|---|
@@ -20,7 +23,7 @@ Android 记账本应用的服务端 API，Express + MySQL 实现，JWT 鉴权。
 | 配置 | dotenv / cors |
 | 开发 | nodemon |
 
-## 📁 项目结构
+##  项目结构
 
 ```
 ├── backend/
@@ -35,7 +38,7 @@ Android 记账本应用的服务端 API，Express + MySQL 实现，JWT 鉴权。
 └── 启动.bat
 ```
 
-## 🚀 快速开始
+##  快速开始
 
 ```bash
 # 1. 安装依赖
@@ -50,7 +53,7 @@ npm start        # 或 npm run dev（nodemon 热重载）
 
 服务默认运行在 `http://localhost:8080`。
 
-## 🔌 API 概览
+##  API 概览
 
 | 模块 | 路径前缀 | 说明 |
 |---|---|---|
@@ -63,6 +66,6 @@ npm start        # 或 npm run dev（nodemon 热重载）
 | 菜谱 | `/api/recipes` | 菜谱数据 |
 | 背景 | `/api/background` | 背景图 |
 
-## 📱 配套客户端
+##  配套客户端
 
 Android 客户端（同仓库 Android 工程），对接以上 RESTful API。
